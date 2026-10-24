@@ -1,7 +1,7 @@
 [build]
   base = "artifacts/esha-birthday-surprise"
   command = "corepack enable && pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "."
 
 [build.environment]
   NODE_VERSION = "22"
